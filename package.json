@@ -1,6 +1,6 @@
 {
-  "name": "feeder-react-feedback",
-  "version": "0.0.6",
+  "name": "@blackspherefollower/feeder-react-feedback",
+  "version": "0.0.7",
   "description": "Embeddable Feedback React component hooked up to an admin dashboard. The fastest way to start collecting feedback across your React projects! ⚡",
   "main": "dist/Feedback.js",
   "license": "MIT",
