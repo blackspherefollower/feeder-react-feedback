@@ -1,10 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
-import TextareaAutosize from "react-textarea-autosize";
-import Radium, { StyleRoot, Style } from "radium";
 import "./Modal-Styles";
-
-let Textarea = Radium(TextareaAutosize);
 
 class Modal extends Component {
   state = {
@@ -211,7 +207,7 @@ class Modal extends Component {
                   },
                 }}
               />
-              <Textarea
+              <textarea
                 key="6"
                 className="frf-modal-input"
                 onChange={this.handleChange}
@@ -284,4 +280,4 @@ class Modal extends Component {
   }
 }
 
-export default Radium(Modal);
+export default Modal;
